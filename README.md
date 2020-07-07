@@ -1,4 +1,4 @@
-# SwiftUI-Using-UIKit-Views
+# SwiftUI-Using-UIKit-Views v2
 
 - Developed in Xcode 12
 - Simple app that displays 5 different feed types in the UK music charts, each feed type will display 10 items
