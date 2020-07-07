@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C25A23B233DE42C00602CE1 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C25A23A233DE42C00602CE1 /* String+Extension.swift */; };
+		4C25A23E2341979300602CE1 /* ImageFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C25A23D2341979300602CE1 /* ImageFetcher.swift */; };
+		4C6AF038233DB414005498FA /* iTunesRSS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6AF037233DB414005498FA /* iTunesRSS.swift */; };
+		4C6E8F6F233C5E7E00C79774 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6E8F6E233C5E7E00C79774 /* FeedView.swift */; };
+		4C6E8F71233C5E7F00C79774 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C6E8F70233C5E7F00C79774 /* Assets.xcassets */; };
+		4C6E8F74233C5E7F00C79774 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C6E8F73233C5E7F00C79774 /* Preview Assets.xcassets */; };
+		4C6E8F77233C5E7F00C79774 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C6E8F75233C5E7F00C79774 /* LaunchScreen.storyboard */; };
+		4C6E8F7F233C5FB000C79774 /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6E8F7E233C5FB000C79774 /* Feed.swift */; };
+		4C6E8F81233C608500C79774 /* Author.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6E8F80233C608500C79774 /* Author.swift */; };
+		4C6E8F83233C608D00C79774 /* Link.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6E8F82233C608D00C79774 /* Link.swift */; };
+		4C6E8F85233C609B00C79774 /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6E8F84233C609B00C79774 /* FeedItem.swift */; };
+		4C6E8F88233C644700C79774 /* Genre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6E8F87233C644700C79774 /* Genre.swift */; };
+		4C6E8F8B233C65AE00C79774 /* FeedItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6E8F89233C65AE00C79774 /* FeedItemCollectionViewCell.swift */; };
+		4C6E8F8C233C65AE00C79774 /* FeedItemCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C6E8F8A233C65AE00C79774 /* FeedItemCollectionViewCell.xib */; };
+		4C6E8F8F233C68EC00C79774 /* FeedCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6E8F8E233C68EC00C79774 /* FeedCollectionView.swift */; };
+		4C6E8F92233C6B4400C79774 /* FeedCollectionViewCoordindator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6E8F91233C6B4400C79774 /* FeedCollectionViewCoordindator.swift */; };
+		4C6E8F94233C8B1300C79774 /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6E8F93233C8B1300C79774 /* FeedViewModel.swift */; };
+		4C6E8F96233C8E7900C79774 /* DateFormatter+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6E8F95233C8E7900C79774 /* DateFormatter+Extension.swift */; };
+		4C6E8F98233C966A00C79774 /* JSONDecoder+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6E8F97233C966A00C79774 /* JSONDecoder+Extension.swift */; };
+		D0326D7424B4524A00014465 /* FeedType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0326D7324B4524A00014465 /* FeedType.swift */; };
+		D08351D724B412B900D1E085 /* iTunesRSSFeedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08351D624B412B900D1E085 /* iTunesRSSFeedApp.swift */; };
+		D083525324B4198200D1E085 /* FeedTypeSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D083525224B4198200D1E085 /* FeedTypeSelectionViewController.swift */; };
+		D085622824B473B200D15C9D /* FeedTypeSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D085622724B473B200D15C9D /* FeedTypeSelectionView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4C25A23A233DE42C00602CE1 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		4C25A23D2341979300602CE1 /* ImageFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFetcher.swift; sourceTree = "<group>"; };
+		4C6AF037233DB414005498FA /* iTunesRSS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTunesRSS.swift; sourceTree = "<group>"; };
+		4C6E8F67233C5E7E00C79774 /* iTunesRSSFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTunesRSSFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C6E8F6E233C5E7E00C79774 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		4C6E8F70233C5E7F00C79774 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C6E8F73233C5E7F00C79774 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4C6E8F76233C5E7F00C79774 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4C6E8F78233C5E7F00C79774 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C6E8F7E233C5FB000C79774 /* Feed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
+		4C6E8F80233C608500C79774 /* Author.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Author.swift; sourceTree = "<group>"; };
+		4C6E8F82233C608D00C79774 /* Link.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Link.swift; sourceTree = "<group>"; };
+		4C6E8F84233C609B00C79774 /* FeedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItem.swift; sourceTree = "<group>"; };
+		4C6E8F87233C644700C79774 /* Genre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Genre.swift; sourceTree = "<group>"; };
+		4C6E8F89233C65AE00C79774 /* FeedItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		4C6E8F8A233C65AE00C79774 /* FeedItemCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FeedItemCollectionViewCell.xib; sourceTree = "<group>"; };
+		4C6E8F8E233C68EC00C79774 /* FeedCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCollectionView.swift; sourceTree = "<group>"; };
+		4C6E8F91233C6B4400C79774 /* FeedCollectionViewCoordindator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCollectionViewCoordindator.swift; sourceTree = "<group>"; };
+		4C6E8F93233C8B1300C79774 /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
+		4C6E8F95233C8E7900C79774 /* DateFormatter+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+Extension.swift"; sourceTree = "<group>"; };
+		4C6E8F97233C966A00C79774 /* JSONDecoder+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JSONDecoder+Extension.swift"; sourceTree = "<group>"; };
+		D0326D7324B4524A00014465 /* FeedType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedType.swift; sourceTree = "<group>"; };
+		D08351D624B412B900D1E085 /* iTunesRSSFeedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTunesRSSFeedApp.swift; sourceTree = "<group>"; };
+		D083525224B4198200D1E085 /* FeedTypeSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTypeSelectionViewController.swift; sourceTree = "<group>"; };
+		D085622724B473B200D15C9D /* FeedTypeSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTypeSelectionView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C6E8F64233C5E7E00C79774 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C25A23C233DE43A00602CE1 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4C6E8F95233C8E7900C79774 /* DateFormatter+Extension.swift */,
+				4C6E8F97233C966A00C79774 /* JSONDecoder+Extension.swift */,
+				4C25A23A233DE42C00602CE1 /* String+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		4C6E8F5E233C5E7E00C79774 = {
+			isa = PBXGroup;
+			children = (
+				4C6E8F69233C5E7E00C79774 /* iTunesRSSFeed */,
+				4C6E8F68233C5E7E00C79774 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C6E8F68233C5E7E00C79774 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C6E8F67233C5E7E00C79774 /* iTunesRSSFeed.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C6E8F69233C5E7E00C79774 /* iTunesRSSFeed */ = {
+			isa = PBXGroup;
+			children = (
+				D08351D624B412B900D1E085 /* iTunesRSSFeedApp.swift */,
+				D083525824B41B4800D1E085 /* FeedTypeSelectionView */,
+				D083525724B41B4000D1E085 /* FeedView */,
+				4C25A23D2341979300602CE1 /* ImageFetcher.swift */,
+				4C25A23C233DE43A00602CE1 /* Extension */,
+				4C6E8F86233C60A100C79774 /* iTunes Models */,
+				4C6E8F70233C5E7F00C79774 /* Assets.xcassets */,
+				4C6E8F75233C5E7F00C79774 /* LaunchScreen.storyboard */,
+				4C6E8F78233C5E7F00C79774 /* Info.plist */,
+				4C6E8F72233C5E7F00C79774 /* Preview Content */,
+			);
+			path = iTunesRSSFeed;
+			sourceTree = "<group>";
+		};
+		4C6E8F72233C5E7F00C79774 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4C6E8F73233C5E7F00C79774 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4C6E8F86233C60A100C79774 /* iTunes Models */ = {
+			isa = PBXGroup;
+			children = (
+				4C6E8F7E233C5FB000C79774 /* Feed.swift */,
+				4C6E8F80233C608500C79774 /* Author.swift */,
+				4C6E8F82233C608D00C79774 /* Link.swift */,
+				4C6E8F84233C609B00C79774 /* FeedItem.swift */,
+				4C6E8F87233C644700C79774 /* Genre.swift */,
+				4C6AF037233DB414005498FA /* iTunesRSS.swift */,
+			);
+			path = "iTunes Models";
+			sourceTree = "<group>";
+		};
+		4C6E8F8D233C65B900C79774 /* FeedItem */ = {
+			isa = PBXGroup;
+			children = (
+				4C6E8F89233C65AE00C79774 /* FeedItemCollectionViewCell.swift */,
+				4C6E8F8A233C65AE00C79774 /* FeedItemCollectionViewCell.xib */,
+			);
+			path = FeedItem;
+			sourceTree = "<group>";
+		};
+		4C6E8F90233C6B3300C79774 /* FeedCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				4C6E8F8E233C68EC00C79774 /* FeedCollectionView.swift */,
+				4C6E8F91233C6B4400C79774 /* FeedCollectionViewCoordindator.swift */,
+				4C6E8F8D233C65B900C79774 /* FeedItem */,
+			);
+			path = FeedCollectionView;
+			sourceTree = "<group>";
+		};
+		D083525724B41B4000D1E085 /* FeedView */ = {
+			isa = PBXGroup;
+			children = (
+				4C6E8F6E233C5E7E00C79774 /* FeedView.swift */,
+				4C6E8F93233C8B1300C79774 /* FeedViewModel.swift */,
+				4C6E8F90233C6B3300C79774 /* FeedCollectionView */,
+			);
+			path = FeedView;
+			sourceTree = "<group>";
+		};
+		D083525824B41B4800D1E085 /* FeedTypeSelectionView */ = {
+			isa = PBXGroup;
+			children = (
+				D0326D7324B4524A00014465 /* FeedType.swift */,
+				D085622724B473B200D15C9D /* FeedTypeSelectionView.swift */,
+				D083525224B4198200D1E085 /* FeedTypeSelectionViewController.swift */,
+			);
+			path = FeedTypeSelectionView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C6E8F66233C5E7E00C79774 /* iTunesRSSFeed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C6E8F7B233C5E7F00C79774 /* Build configuration list for PBXNativeTarget "iTunesRSSFeed" */;
+			buildPhases = (
+				4C6E8F63233C5E7E00C79774 /* Sources */,
+				4C6E8F64233C5E7E00C79774 /* Frameworks */,
+				4C6E8F65233C5E7E00C79774 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iTunesRSSFeed;
+			productName = iTunesRSSFeed;
+			productReference = 4C6E8F67233C5E7E00C79774 /* iTunesRSSFeed.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C6E8F5F233C5E7E00C79774 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = Michael;
+				TargetAttributes = {
+					4C6E8F66233C5E7E00C79774 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = 4C6E8F62233C5E7E00C79774 /* Build configuration list for PBXProject "iTunesRSSFeed" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C6E8F5E233C5E7E00C79774;
+			productRefGroup = 4C6E8F68233C5E7E00C79774 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C6E8F66233C5E7E00C79774 /* iTunesRSSFeed */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C6E8F65233C5E7E00C79774 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C6E8F77233C5E7F00C79774 /* LaunchScreen.storyboard in Resources */,
+				4C6E8F8C233C65AE00C79774 /* FeedItemCollectionViewCell.xib in Resources */,
+				4C6E8F74233C5E7F00C79774 /* Preview Assets.xcassets in Resources */,
+				4C6E8F71233C5E7F00C79774 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C6E8F63233C5E7E00C79774 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C25A23B233DE42C00602CE1 /* String+Extension.swift in Sources */,
+				4C6E8F98233C966A00C79774 /* JSONDecoder+Extension.swift in Sources */,
+				4C25A23E2341979300602CE1 /* ImageFetcher.swift in Sources */,
+				4C6E8F92233C6B4400C79774 /* FeedCollectionViewCoordindator.swift in Sources */,
+				4C6E8F6F233C5E7E00C79774 /* FeedView.swift in Sources */,
+				4C6E8F83233C608D00C79774 /* Link.swift in Sources */,
+				D08351D724B412B900D1E085 /* iTunesRSSFeedApp.swift in Sources */,
+				4C6E8F7F233C5FB000C79774 /* Feed.swift in Sources */,
+				4C6AF038233DB414005498FA /* iTunesRSS.swift in Sources */,
+				4C6E8F81233C608500C79774 /* Author.swift in Sources */,
+				4C6E8F8F233C68EC00C79774 /* FeedCollectionView.swift in Sources */,
+				D083525324B4198200D1E085 /* FeedTypeSelectionViewController.swift in Sources */,
+				D085622824B473B200D15C9D /* FeedTypeSelectionView.swift in Sources */,
+				4C6E8F94233C8B1300C79774 /* FeedViewModel.swift in Sources */,
+				4C6E8F85233C609B00C79774 /* FeedItem.swift in Sources */,
+				4C6E8F88233C644700C79774 /* Genre.swift in Sources */,
+				4C6E8F8B233C65AE00C79774 /* FeedItemCollectionViewCell.swift in Sources */,
+				4C6E8F96233C8E7900C79774 /* DateFormatter+Extension.swift in Sources */,
+				D0326D7424B4524A00014465 /* FeedType.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4C6E8F75233C5E7F00C79774 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C6E8F76233C5E7F00C79774 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C6E8F79233C5E7F00C79774 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4C6E8F7A233C5E7F00C79774 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C6E8F7C233C5E7F00C79774 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"iTunesRSSFeed/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iTunesRSSFeed/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.michael.iTunesRSSFeed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4C6E8F7D233C5E7F00C79774 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"iTunesRSSFeed/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iTunesRSSFeed/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.michael.iTunesRSSFeed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C6E8F62233C5E7E00C79774 /* Build configuration list for PBXProject "iTunesRSSFeed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C6E8F79233C5E7F00C79774 /* Debug */,
+				4C6E8F7A233C5E7F00C79774 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C6E8F7B233C5E7F00C79774 /* Build configuration list for PBXNativeTarget "iTunesRSSFeed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C6E8F7C233C5E7F00C79774 /* Debug */,
+				4C6E8F7D233C5E7F00C79774 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C6E8F5F233C5E7E00C79774 /* Project object */;
+}
